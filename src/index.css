@@ -4,9 +4,14 @@ html, body, #root {
     padding: 0;
     border: 0;
 }
+
+.content {
+    height: 100%;
+    width: 100%;
+}
 .fullScreen {
     height: 100%;
-    border: 2px blue solid;
+    width: 100%;
 }
 
 .leftSide {
@@ -50,7 +55,4 @@ html, body, #root {
     margin: 30px auto;
 }
 
-/* .image-container {
-    margin-top: 100px;
-    border: 2px blue solid;
-} */
+
