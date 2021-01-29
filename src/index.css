@@ -1,14 +1,4 @@
-html {
-    height: 100%
-}
-body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-#root {
+html, body, #root {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -16,31 +6,26 @@ body {
 }
 
 .content {
+    height: 100%;
     width: 100%;
-    min-height: 100vh;
 }
-
-.socials {
-    text-align: center;
-}
-
 .fullScreen {
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
 .leftSide {
     background-color: black;
-    float: left;
+    float:left;
     width:50%;
-    height: 100vh;
+    height: 100%;
 }
 .rightSide {
     background-image: url(IMG_5250.JPG);
     background-size: cover;
     float: right;
     width: 50%;
-    height: 100vh;
+    height: 100%;
 }
 
 .name {
@@ -63,17 +48,11 @@ body {
 }
 
 .logo {
-    margin-top: 30px;
-    text-align: center;
+    background-image: url(camera.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin: 30px auto;
 }
 
-.location-tabs {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.photo-showcase {
-    width: 100%;
-}
 
