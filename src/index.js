@@ -28,18 +28,18 @@ function App() {
                         <h1>@ShotsBySameer</h1>
                     </div>
                     <div className="blurb">
-                        <p>Photography &amp; Stories by <a className="link" href="https://www.instagram.com/sameer__rao/" target="_blank">Sameer Rao</a></p>
+                        <p>Photography &amp; Stories by <a className="link" href="https://www.instagram.com/sameer__rao/" rel="noreferrer" target="_blank">Sameer Rao</a></p>
                     </div>
                     <div className="socials">
-                        <a href="https://www.instagram.com/shotsbysameer/" target="_blank">
+                        <a href="https://www.instagram.com/shotsbysameer/" rel="noreferrer" target="_blank">
                             <InstagramIcon style={{color: 'white', fontSize: 40}}></InstagramIcon>
                         </a>
 
-                        <a href="https://twitter.com/sameer___rao" target="_blank">
+                        <a href="https://twitter.com/sameer___rao" rel="noreferrer" target="_blank">
                             <TwitterIcon style={{color: 'white', fontSize: 40}}></TwitterIcon>
                         </a>
                         
-                        <a href="https://www.linkedin.com/in/sameer-r/" target="_blank">
+                        <a href="https://www.linkedin.com/in/sameer-r/" rel="noreferrer" target="_blank">
                             <LinkedInIcon style={{color: 'white', fontSize: 40}}></LinkedInIcon> 
                         </a>
                     </div>
