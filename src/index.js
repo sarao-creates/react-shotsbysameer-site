@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import ReactDOM from 'react-dom';
 // import ImageDisplay from './ImageDisplay';
 // import { Tabs, Tab } from '@material-ui/core';
@@ -12,11 +12,11 @@ import './index.css';
 import PhotoGrid from './PhotoGrid';
 
 function App() {
-    let side = true;
-    const handleSide = () => {
-        side = !side;
-        return side ? false : true;
-    }
+    // let side = true;
+    // const handleSide = () => {
+    //     side = !side;
+    //     return side ? false : true;
+    // }
 
 
     return (
@@ -76,10 +76,10 @@ function App() {
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
-{/* <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5d18ae93752a587e1da2eae1/vsco5d18ae9de25c9.jpg?w=480"></Image>
+/* <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5d18ae93752a587e1da2eae1/vsco5d18ae9de25c9.jpg?w=480"></Image>
 <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5d188c8e61eeb37610995089/vsco5d188c97dd92b.jpg?w=480"></Image>
 <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5cdcda59b038832716ce5c03/vsco5cdcda5c958a2.jpg?w=480"></Image>
 <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5b5cdac0991ceb2c4188f8b2/vsco5b5cdac3d46ab.jpg?w=480"></Image>
 <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5b5c78c0f111fe1208bb8a09/vsco5b5c78c5865e5.jpg?w=480"></Image>
 <Image sideBool={handleSide()} src="https://im.vsco.co/aws-us-west-2/c12173/21142832/5b21c133032a130514551c4a/vsco5b21c13dced43.jpg?w=480"></Image>
-<Image sideBool={handleSide()} src="https://im.vsco.co/1/578aeb7366c1821142832/578bee6bb4dfd1235367647a/vsco_071716.jpg?w=480"></Image>  */}
+<Image sideBool={handleSide()} src="https://im.vsco.co/1/578aeb7366c1821142832/578bee6bb4dfd1235367647a/vsco_071716.jpg?w=480"></Image>  */

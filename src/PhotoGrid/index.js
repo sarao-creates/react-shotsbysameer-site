@@ -3,7 +3,6 @@ import { GridList, GridListTile, GridListTileBar } from '@material-ui/core';
 import tileData from '../tileData.js';
 import { makeStyles } from '@material-ui/core/styles';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import { Block } from '@material-ui/icons';
 
 
 const useStyles = makeStyles((theme) => ({
